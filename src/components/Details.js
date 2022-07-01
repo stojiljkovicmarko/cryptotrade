@@ -34,7 +34,6 @@ const Details = () => {
 
   const handleAddToFavorites = () => {
     dispatch(favoritesActions.addFavorite(symbol));
-    console.log("ADDED");
     const loadedFavs = loadFavFromStorage();
 
     saveFavToStorage(loadedFavs.concat(symbol));
@@ -42,7 +41,6 @@ const Details = () => {
 
   const handleRemoveFromFavorites = () => {
     dispatch(favoritesActions.removeFavorite(symbol));
-    console.log("REMOVED");
 
     const loadedFavs = loadFavFromStorage();
     let newFavs;
