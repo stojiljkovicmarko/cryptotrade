@@ -1,0 +1,23 @@
+.maintenance {
+  height: 30vh;
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+  display: grid;
+  place-content: center;
+}
+
+.loading {
+  height: 30vh;
+  border: 2px solid var(--green);
+  color: var(--green);
+  display: grid;
+  place-content: center;
+}
+
+.no-favs {
+  height: 30vh;
+  border: 2px solid var(--green);
+  color: var(--green);
+  display: grid;
+  place-content: center;
+}
